@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
 
           <PrivateRoute exact path={sitePath.home} component={Home}/>
