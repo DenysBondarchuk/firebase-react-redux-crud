@@ -9,12 +9,16 @@ import Page404 from "./pages/Page404";
 import {AuthProvider} from "./context/AuthContext";
 import PrivateRoute from "./components/PrivateRoute";
 import {sitePath} from "./constants/paths";
+import { createBrowserHistory } from "history";
+
+
 
 const App = () => {
+  const history = createBrowserHistory();
 
   return (
     <AuthProvider>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL} history={history}>
         <Switch>
 
           <PrivateRoute exact path={sitePath.home} component={Home}/>
