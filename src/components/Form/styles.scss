@@ -1,0 +1,22 @@
+.form {
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      margin-right: 10px;
+      flex: 1;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

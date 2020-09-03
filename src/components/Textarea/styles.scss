@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.textarea {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  position: relative;
+
+  textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-base;
+    color: $primary-color;
+
+    width: 100%;
+    padding: 10px;
+
+    border-radius: $border-radius-base;
+    border: 1px solid $primary-color;
+    resize: none;
+  }
+
+  &--error {
+    textarea {
+      border-color: $danger-color;
+    }
+  }
+}

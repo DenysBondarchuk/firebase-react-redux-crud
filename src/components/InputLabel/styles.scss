@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+
+.input-label {
+  font-size: $font-size-base;
+  color: $primary-color;
+
+  display: block;
+  margin-bottom: 5px;
+}

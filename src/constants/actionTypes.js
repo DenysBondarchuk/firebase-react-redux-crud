@@ -1,0 +1,40 @@
+export const DATA = {
+  FETCH: 'DATA_FETCH',
+  REQUESTED: 'DATA_REQUESTED',
+  REQUESTED_SUCCESS: 'DATA_REQUESTED_SUCCESS',
+  REQUESTED_ERROR: 'DATA_REQUESTED_ERROR',
+};
+
+export const ADD = {
+  ITEM: 'ADD_ITEM',
+  ITEM_SUCCESS: 'ADD_ITEM_SUCCESS',
+};
+
+export const DELETE = {
+  ITEM: 'DELETE_ITEM',
+  ITEM_SUCCESS: 'DELETE_ITEM_SUCCESS',
+};
+
+export const UPDATE = {
+  ITEM: 'UPDATE_ITEM',
+  ITEM_SUCCESS: 'UPDATE_ITEM_SUCCESS',
+};
+
+export const EDIT = {
+  ITEM: 'EDIT_ITEM',
+  ITEM_START: 'EDIT_ITEM_START',
+  ITEM_CLEAR: 'EDIT_ITEM_CLEAR',
+};
+
+export const CREATE = {
+  ITEM: 'ITEM_CREATE'
+};
+
+export default {
+  DATA,
+  ADD,
+  DELETE,
+  UPDATE,
+  EDIT,
+  CREATE
+};

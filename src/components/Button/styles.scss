@@ -1,0 +1,59 @@
+@import '../../styles/variables';
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $white-color;
+
+  padding: 10px 16px;
+  display: inline-block;
+
+  cursor: pointer;
+  border-radius: $border-radius-base;
+  transition: 0.2s;
+
+  &-primary {
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: transparentize($primary-color, 0.2);
+    }
+  }
+
+  &-secondary {
+    background-color: $secondary-color;
+
+    &:hover {
+      background-color: transparentize($secondary-color, 0.2);
+    }
+  }
+
+  &-tertiary {
+    background-color: $tertiary-color;
+
+    &:hover {
+      background-color: transparentize($tertiary-color, 0.2);
+    }
+  }
+
+  &-danger {
+    background-color: $danger-color;
+
+    &:hover {
+      background-color: transparentize($danger-color, 0.2);
+    }
+  }
+
+  &-link {
+    padding: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    pointer-events: none;
+  }
+}

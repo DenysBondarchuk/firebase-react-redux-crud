@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.header {
+  color: $white-color;
+
+  padding: 20px 0;
+  background-color: $primary-color;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
