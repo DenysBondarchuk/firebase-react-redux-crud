@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route, HashRouter} from "react-router-dom";
 import {Switch} from "react-router";
 
 import Home from "./pages/Home";
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <AuthProvider>
-      <Router basename={process.env.PUBLIC_URL} history={history}>
+      <HashRouter basename={process.env.PUBLIC_URL} history={history}>
         <Switch>
 
           <PrivateRoute exact path={sitePath.home} component={Home}/>
@@ -26,7 +26,7 @@ const App = () => {
           <Route component={Page404}/>
 
         </Switch>
-      </Router>
+      </HashRouter>
     </AuthProvider>
   );
 };
