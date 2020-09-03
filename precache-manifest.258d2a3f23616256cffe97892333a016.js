@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ffada2cbed068352f7f791ed2d7708",
+    "revision": "ebed5486f7c9822724b681803679e9de",
     "url": "/firebase-react-redux-crud/index.html"
   },
   {
-    "revision": "9e7aefe72294c4ec4a09",
+    "revision": "dbfa6c1cf6700dcd9982",
     "url": "/firebase-react-redux-crud/static/css/main.16e9f930.chunk.css"
   },
   {
-    "revision": "ad1fe6304e814c6ff5aa",
-    "url": "/firebase-react-redux-crud/static/js/2.d64853bc.chunk.js"
+    "revision": "b9035f13a9b7e494a9a1",
+    "url": "/firebase-react-redux-crud/static/js/2.0a517f84.chunk.js"
   },
   {
     "revision": "cb59ff19cf2dee29ace8b51198822910",
-    "url": "/firebase-react-redux-crud/static/js/2.d64853bc.chunk.js.LICENSE.txt"
+    "url": "/firebase-react-redux-crud/static/js/2.0a517f84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e7aefe72294c4ec4a09",
-    "url": "/firebase-react-redux-crud/static/js/main.a821201d.chunk.js"
+    "revision": "dbfa6c1cf6700dcd9982",
+    "url": "/firebase-react-redux-crud/static/js/main.8c5b267d.chunk.js"
   },
   {
     "revision": "1d1a6b48b1d980324cae",
