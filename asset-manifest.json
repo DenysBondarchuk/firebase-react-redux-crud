@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/firebase-react-redux-crud/static/css/main.02fdc1f9.chunk.css",
-    "main.js": "/firebase-react-redux-crud/static/js/main.1a495534.chunk.js",
-    "main.js.map": "/firebase-react-redux-crud/static/js/main.1a495534.chunk.js.map",
+    "main.js": "/firebase-react-redux-crud/static/js/main.8a22b73e.chunk.js",
+    "main.js.map": "/firebase-react-redux-crud/static/js/main.8a22b73e.chunk.js.map",
     "runtime-main.js": "/firebase-react-redux-crud/static/js/runtime-main.9b824b2e.js",
     "runtime-main.js.map": "/firebase-react-redux-crud/static/js/runtime-main.9b824b2e.js.map",
     "static/js/2.0429a7fa.chunk.js": "/firebase-react-redux-crud/static/js/2.0429a7fa.chunk.js",
     "static/js/2.0429a7fa.chunk.js.map": "/firebase-react-redux-crud/static/js/2.0429a7fa.chunk.js.map",
     "index.html": "/firebase-react-redux-crud/index.html",
-    "precache-manifest.1f575b83830b02a33c6c34143cab4079.js": "/firebase-react-redux-crud/precache-manifest.1f575b83830b02a33c6c34143cab4079.js",
+    "precache-manifest.99f6c0c692101af7db9d0d28611d0fd8.js": "/firebase-react-redux-crud/precache-manifest.99f6c0c692101af7db9d0d28611d0fd8.js",
     "service-worker.js": "/firebase-react-redux-crud/service-worker.js",
     "static/css/main.02fdc1f9.chunk.css.map": "/firebase-react-redux-crud/static/css/main.02fdc1f9.chunk.css.map",
     "static/js/2.0429a7fa.chunk.js.LICENSE.txt": "/firebase-react-redux-crud/static/js/2.0429a7fa.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9b824b2e.js",
     "static/js/2.0429a7fa.chunk.js",
     "static/css/main.02fdc1f9.chunk.css",
-    "static/js/main.1a495534.chunk.js"
+    "static/js/main.8a22b73e.chunk.js"
   ]
 }
