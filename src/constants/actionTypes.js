@@ -27,7 +27,7 @@ export const EDIT = {
 };
 
 export const CREATE = {
-  ITEM: 'ITEM_CREATE'
+  ITEM: 'ITEM_CREATE',
 };
 
 export default {
@@ -36,5 +36,5 @@ export default {
   DELETE,
   UPDATE,
   EDIT,
-  CREATE
+  CREATE,
 };

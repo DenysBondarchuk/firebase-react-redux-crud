@@ -13,8 +13,8 @@ const Button = ({ type, text, variant, disabled, className, onClick }) => {
 
   const inputClasses = classNames(
     'btn',
-    { [`btn-${variant}`] : variant },
-    { [`${className}`] : className }
+    { [`btn-${variant}`]: variant },
+    { [`${className}`]: className },
   );
 
   return (

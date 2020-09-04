@@ -32,6 +32,7 @@ const FormSignIn = ({ history }) => {
         initialValues={FormSignInValidation.initialValues}
         validationSchema={FormSignInValidation.validationSchema}
         onSubmit={values => handleLogin(values)}
+        validateOnChange={false}
       >
         {({ handleChange, handleSubmit, values, errors }) => (
           <form onSubmit={handleSubmit} className="sign-in__form">

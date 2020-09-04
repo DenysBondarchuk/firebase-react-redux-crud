@@ -16,7 +16,7 @@
     margin-bottom: 0;
   }
 
-  @media screen and (max-width: 768px) {
+  @include tablet {
     flex-direction: column;
   }
 
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: flex-start;
 
-    @media screen and (max-width: 768px) {
+    @include tablet {
       flex-direction: column;
       width: 100%;
       margin-bottom: 10px;
@@ -39,7 +39,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 
-    @media screen and (max-width: 768px) {
+    @include tablet {
       margin-right: 0;
       padding-bottom: 5px;
       margin-bottom: 10px;
@@ -56,13 +56,13 @@
   }
 
   &__controls {
-    @media screen and (max-width: 768px) {
+    @include tablet {
       display: flex;
       width: 100%;
     }
 
     .btn {
-      @media screen and (max-width: 768px) {
+      @include tablet {
         flex: 1;
       }
 

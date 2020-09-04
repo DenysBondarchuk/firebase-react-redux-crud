@@ -1,4 +1,4 @@
-export const sitePath = {
-  home: '/',
-  signIn: '/signin'
+export const SITE_PATH = {
+  HOME: '/',
+  SIGN_IN: '/signin',
 };

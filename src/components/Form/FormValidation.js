@@ -19,7 +19,7 @@ const initialValues = {
   shelfLife: '',
   compositionAndFormOfRelease: '',
   indication: '',
-  сontrandications: '',
+  contraindications: '',
 };
 
 // --------------------------------------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ const validationSchema = yup.object({
   indication: yup.string()
     .max(2000, RELEASE_ERROR),
 
-  сontrandications: yup.string()
+  contraindications: yup.string()
     .max(2000, RELEASE_ERROR),
 
 });

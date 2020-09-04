@@ -38,8 +38,8 @@ const FormNotRequiredFields = ({ values, errors, handleChange }) => (
         id="сontrandications"
         text="Contrandications"
         onChange={handleChange}
-        value={values.сontrandications}
-        error={errors.сontrandications}
+        value={values.contraindications}
+        error={errors.contraindications}
       />
     </div>
   </>

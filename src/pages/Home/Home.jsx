@@ -5,15 +5,13 @@ import MedicalList from '../../components/Medical/MedicalList';
 import Modal from '../../components/Modal';
 import Plus from '../../components/Plus';
 
-import './styles.scss';
-
 //---------------------------------------------------------------------------------------------------------------------
 
 const Home = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
 
       <MedicalList />
       <Modal />
