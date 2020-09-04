@@ -33,9 +33,9 @@ const FormNotRequiredFields = ({ values, errors, handleChange }) => (
     <div className="form__item">
       <Textarea
         type="text"
-        name="сontrandications"
+        name="contraindications"
         placeholder="Contrandications"
-        id="сontrandications"
+        id="Contraindications"
         text="Contrandications"
         onChange={handleChange}
         value={values.contraindications}
